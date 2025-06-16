@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Players.css'
 
-function Players({ setShowPlayers }) {
+function Players({ showPlayers, setShowPlayers }) {
   const [players, setPlayers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -57,6 +57,18 @@ function Players({ setShowPlayers }) {
     };
   }, []); // Empty dependency array means this effect runs only once on mount
 
+  const handleCheckboxChange = (user, isChecked) => {
+    setShowPlayers(prevShowPlayers => {
+      const newSet = new Set(prevShowPlayers); // Create a new Set to avoid direct mutation
+      if (isChecked) {
+        newSet.add(user);
+      } else {
+        newSet.delete(user);
+      }
+      return newSet;
+    });
+  };
+
   return (
     <div class="players">
       {isLoading && (
@@ -68,8 +80,16 @@ function Players({ setShowPlayers }) {
 
       {!isLoading && !error && players.length > 0 && (
         <ul className="space-y-3">
-          {players.map(user => (
-            <li key={user}>{user}</li>
+          {players.map(player => (
+            <li key={player}>
+              <input
+                type="checkbox"
+                id={`player-${player}`}
+                checked={showPlayers.has(player)}
+                onChange={(e) => handleCheckboxChange(player, e.target.checked)}
+              />
+              <label htmlFor={`player-${player}`}>{player}</label>
+            </li>
           ))}
         </ul>
       )}
