@@ -1,0 +1,8 @@
+.players {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.players ul {
+    list-style: none;
+}
