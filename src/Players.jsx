@@ -5,6 +5,7 @@ function Players({ showPlayers, setShowPlayers }) {
   const [players, setPlayers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isClosed, setIsClosed] = useState(true)
 
   // useEffect hook to perform data fetching when the component mounts
   useEffect(() => {
@@ -70,34 +71,36 @@ function Players({ showPlayers, setShowPlayers }) {
   };
 
   return (
-    <div class="players">
-      {isLoading && (
-          <div>Loading players...</div>
-      )}
-      {error && (
-          <div>Error: {error}</div>
-      )}
+    <div className="players">
+      <button className="placeholder" onClick={() => setIsClosed(!isClosed)}>players</button>
+      <div className={`menu ${isClosed ? "closed" : ""}`}>
+        {isLoading && (
+            <div>Loading players...</div>
+        )}
+        {error && (
+            <div>Error: {error}</div>
+        )}
 
-      {!isLoading && !error && players.length > 0 && (
-        <ul className="space-y-3">
-          {players.map(player => (
-            <li key={player}>
-              <input
-                type="checkbox"
-                id={`player-${player}`}
-                checked={showPlayers.has(player)}
-                onChange={(e) => handleCheckboxChange(player, e.target.checked)}
-              />
-              <label htmlFor={`player-${player}`}>{player}</label>
-            </li>
-          ))}
-        </ul>
-      )}
+        {!isLoading && !error && players.length > 0 && (
+          <ul>
+            {players.map(player => (
+              <li key={player}>
+                <input
+                  type="checkbox"
+                  id={`player-${player}`}
+                  checked={showPlayers.has(player)}
+                  onChange={(e) => handleCheckboxChange(player, e.target.checked)}
+                />
+                <label htmlFor={`player-${player}`}>{player}</label>
+              </li>
+            ))}
+          </ul>
+        )}
 
-      {!isLoading && !error && players.length === 0 && (
-        <div>No players found.</div>
-      )}
-
+        {!isLoading && !error && players.length === 0 && (
+          <div>No players found.</div>
+        )}
+      </div>
     </div>
   )
 }
