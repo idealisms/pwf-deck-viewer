@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Deck from './Deck'
 import Players from './Players'
 import './App.css'
 
@@ -7,17 +8,13 @@ function App() {
 
   return (
     <>
-      <div className="toolbar">
+      <div id="toolbar">
         <Players showPlayers={showPlayers} setShowPlayers={setShowPlayers} />
       </div>
-      <div>Selected decks:
-        <div>
+      <div id="decks">
           {[...showPlayers].map(player => (
-            <div key={player}>
-              {player}
-            </div>
+            <Deck className="deck" key={player} player={player} />
           ))}
-        </div>
       </div>
     </>
   )

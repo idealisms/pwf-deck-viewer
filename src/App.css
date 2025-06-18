@@ -7,7 +7,12 @@
   height: 100%
 }
 
-.toolbar {
+#toolbar {
   display: flex;
   justify-content: flex-end;
+}
+
+#decks {
+  display: flex;
+  flex-direction: column;
 }
