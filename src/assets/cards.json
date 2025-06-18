@@ -3364,5 +3364,11 @@
     "type": "Curse",
     "cost": -2,
     "character": "Curse"
+  },
+  {
+    "name": "Ascender's Bane",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Universal"
   }
 ]
