@@ -1,0 +1,3368 @@
+[
+  {
+    "name": "Strike",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Strike+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Defend",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Defend+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bash",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bash+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Anger",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Anger+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Armaments",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Armaments+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Barricade",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Barricade+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Battle Trance",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Battle Trance+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bludgeon",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bludgeon+",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Body Slam",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Body Slam+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Burning Pact",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Burning Pact+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Carnage",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Carnage+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Clash",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Clash+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Cleave",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Cleave+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Clothesline",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Clothesline+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Combust",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Combust+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Corruption",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Corruption+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Havoc",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Havoc+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Headbutt",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Headbutt+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Heavy Blade",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Heavy Blade+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Hemokinesis",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Hemokinesis+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Immolate",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Immolate+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Impervious",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Impervious+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Infernal Blade",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Infernal Blade+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Iron Wave",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Iron Wave+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Limit Break",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Limit Break+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Offering",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Offering+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Perfected Strike",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Perfected Strike+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Pummel",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Pummel+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Reckless Charge",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Reckless Charge+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Rupert's Hand",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Rupert's Hand+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Searing Blow",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Searing Blow+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Seeing Red",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Seeing Red+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sentinel",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sentinel+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sever Soul",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sever Soul+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Shockwave",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Shockwave+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Shrug It Off",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Shrug It Off+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Spot Weakness",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Spot Weakness+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Uppercut",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Uppercut+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Warcry",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Warcry+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Whirlwind",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Whirlwind+",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Wild Strike",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Wild Strike+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sword Boomerang",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Sword Boomerang+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Disarm",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Disarm+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dropkick",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dropkick+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Entrench",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Entrench+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Evolve",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Evolve+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Exhume",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Exhume+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Feed",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Feed+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Feel No Pain",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Feel No Pain+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Fire Breathing",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Fire Breathing+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Flame Barrier",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Flame Barrier+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Flex",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Flex+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Fission",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Fission+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Ghostly Armor",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Ghostly Armor+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Grand Finale",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Grand Finale+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Berserk",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Berserk+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Blood for Blood",
+    "type": "Attack",
+    "cost": 4,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Blood for Blood+",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bludgeon",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Bludgeon+",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Brutality",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Brutality+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dark Embrace",
+    "type": "Power",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dark Embrace+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Demon Form",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Demon Form+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Double Tap",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Double Tap+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dual Wield",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Dual Wield+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Juggernaut",
+    "type": "Power",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Juggernaut+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Rage",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Rage+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Transmutation",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Ironclad"
+  },
+  {
+    "name": "Transmutation+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Ironclad"
+  },
+  {
+    "name": "True Grit",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Ironclad"
+  },
+  {
+    "name": "True Grit+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Reaper",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Reaper+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Ironclad"
+  },
+  {
+    "name": "Strike",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Strike+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Defend",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Defend+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Neutralize",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Neutralize+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Survivor",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Survivor+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Accuracy",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Accuracy+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Acrobatics",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Acrobatics+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "All Out Attack",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "All Out Attack+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Backflip",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Backflip+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Backstab",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Backstab+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Blade Dance",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Blade Dance+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Bouncing Flask",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Bouncing Flask+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Bust",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Bust+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Choke",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Choke+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Concentrate",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Concentrate+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Corpse Explosion",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Corpse Explosion+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Crippling Cloud",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Crippling Cloud+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Dagger Throw",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Dagger Throw+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Dash",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Dash+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Deadly Poison",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Deadly Poison+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Deflect",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Deflect+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Die Die Die",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Die Die Die+",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Dodge and Roll",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Dodge and Roll+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Doppelganger",
+    "type": "Skill",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Doppelganger+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Endless Agony",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Endless Agony+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Envenom",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Envenom+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Escape Plan",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Escape Plan+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Eviscerate",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Eviscerate+",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Expertise",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Expertise+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Finisher",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Finisher+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Flechettes",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Flechettes+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Flying Knee",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Flying Knee+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Footwork",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Footwork+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Glass Knife",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Glass Knife+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Grand Finale",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Grand Finale+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Prepared",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Prepared+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Infinite Blades",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Infinite Blades+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Leg Sweep",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Leg Sweep+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Night Terror",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Night Terror+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Noxious Fumes",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Noxious Fumes+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Poisoned Stab",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Poisoned Stab+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Predator",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Predator+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Quick Slash",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Quick Slash+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Reflex",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Reflex+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Skewer",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Skewer+",
+    "type": "Attack",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Slice",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Slice+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Sneaky Strike",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Sneaky Strike+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Sucker Punch",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Sucker Punch+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Storm of Steel",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Storm of Steel+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Terror",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Terror+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Well-Laid Plans",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Well-Laid Plans+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Wraith Form",
+    "type": "Power",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Wraith Form+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Unload",
+    "type": "Attack",
+    "cost": 4,
+    "character": "Silent"
+  },
+  {
+    "name": "Unload+",
+    "type": "Attack",
+    "cost": 4,
+    "character": "Silent"
+  },
+  {
+    "name": "A Thousand Cuts",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "A Thousand Cuts+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Adrenaline",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Adrenaline+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "After Image",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "After Image+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Silent"
+  },
+  {
+    "name": "Burst",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Burst+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Caltrops",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Caltrops+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Catalyst",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Catalyst+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Malaise",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Malaise+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Silent"
+  },
+  {
+    "name": "Bullet Time",
+    "type": "Skill",
+    "cost": 3,
+    "character": "Silent"
+  },
+  {
+    "name": "Bullet Time+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Tools of the Trade",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Tools of the Trade+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Silent"
+  },
+  {
+    "name": "Slight of Hand",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Slight of Hand+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Silent"
+  },
+  {
+    "name": "Strike",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Strike+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Defend",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Defend+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Dualcast",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Dualcast+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Zap",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Zap+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Auto-Shields",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Auto-Shields+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Ball Lightning",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Ball Lightning+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Barrage",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Barrage+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Blizzard",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Blizzard+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Buffer",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Buffer+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Chaos",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Chaos+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Chill",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Chill+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Claw",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Claw+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Cold Snap",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Cold Snap+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Consume",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Consume+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Coolheaded",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Coolheaded+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Core Surge",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Core Surge+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Creative AI",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Creative AI+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Defragment",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Defragment+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Electrodynamics",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Electrodynamics+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Fission",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Fission+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Force Field",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Force Field+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "FTL",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "FTL+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Fusion",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Fusion+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Gash",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Gash+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Genetic Algorithm",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Genetic Algorithm+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Glacier",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Glacier+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Go For The Eyes",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Go For The Eyes+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Hologram",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Hologram+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Hyperbeam",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Hyperbeam+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Leap",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Leap+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Lightning Bolt",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Lightning Bolt+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Loop",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Loop+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Machine Learning",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Machine Learning+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Melter",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Melter+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Meteor Strike",
+    "type": "Attack",
+    "cost": 5,
+    "character": "Defect"
+  },
+  {
+    "name": "Meteor Strike+",
+    "type": "Attack",
+    "cost": 4,
+    "character": "Defect"
+  },
+  {
+    "name": "Multi-Cast",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Defect"
+  },
+  {
+    "name": "Multi-Cast+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Defect"
+  },
+  {
+    "name": "Reprogram",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Reprogram+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Rip and Tear",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Rip and Tear+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Scrape",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Scrape+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Seek",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Seek+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Self-Repair",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Self-Repair+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Stack",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Stack+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Static Discharge",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Static Discharge+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Streamline",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Streamline+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Sunder",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Sunder+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Tempest",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Defect"
+  },
+  {
+    "name": "Tempest+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Defect"
+  },
+  {
+    "name": "Thunderclap",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Thunderclap+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Turbulence",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Turbulence+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "White Noise",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "White Noise+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "All For One",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "All For One+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Amplify",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Amplify+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Awakened One",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Awakened One+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Biased Cognition",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Biased Cognition+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Capacitor",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Capacitor+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Darkness",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Darkness+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Equilibrium",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Equilibrium+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Foresight",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Foresight+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Heatsinks",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Heatsinks+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Magnetism",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Magnetism+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Defect"
+  },
+  {
+    "name": "Echo Form",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Echo Form+",
+    "type": "Power",
+    "cost": 3,
+    "character": "Defect"
+  },
+  {
+    "name": "Recycle",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Recycle+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Reboot",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Reboot+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Defect"
+  },
+  {
+    "name": "Replicate",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Replicate+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Skim",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Skim+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Defect"
+  },
+  {
+    "name": "Defend",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Defend+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Strike",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Strike+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Eruption",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Eruption+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Vigilance",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Vigilance+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Bowling Bash",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Bowling Bash+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Carve Reality",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Carve Reality+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Crush Joints",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Crush Joints+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Cut Through Fate",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Cut Through Fate+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Body",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Body+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Fist",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Fist+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Mind",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Empty Mind+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Establishment",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Establishment+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Fasting",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Fasting+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Foreign Influence",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Foreign Influence+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Indignation",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Indignation+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Inner Peace",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Inner Peace+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Insight",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Insight+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Just Lucky",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Just Lucky+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Mental Fortress",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Mental Fortress+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Miracle",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Miracle+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Nirvana",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Nirvana+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Perseverance",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Perseverance+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Pray",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Pray+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Pressure Points",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Pressure Points+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Prostrate",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Prostrate+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Rushdown",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Rushdown+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Sash Whip",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Sash Whip+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Scrawl",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Scrawl+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Spirit Shield",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Spirit Shield+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Swivel",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Swivel+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Talk to the Hand",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Talk to the Hand+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Tantrum",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Tantrum+",
+    "type": "Attack",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Third Eye",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Third Eye+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Wallop",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Wallop+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Worship",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Worship+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Alpha",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Alpha+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Battle Hymn",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Battle Hymn+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Blasphemy",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Blasphemy+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Brilliance",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Brilliance+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Collect",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Watcher"
+  },
+  {
+    "name": "Collect+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Watcher"
+  },
+  {
+    "name": "Conjure Blade",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Conjure Blade+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Deceive Reality",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Deceive Reality+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Deva Form",
+    "type": "Power",
+    "cost": 3,
+    "character": "Watcher"
+  },
+  {
+    "name": "Deva Form+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Devotion",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Devotion+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Foresight",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Foresight+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Master Reality",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Master Reality+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Omniscience",
+    "type": "Skill",
+    "cost": 4,
+    "character": "Watcher"
+  },
+  {
+    "name": "Omniscience+",
+    "type": "Skill",
+    "cost": 3,
+    "character": "Watcher"
+  },
+  {
+    "name": "Reach Heaven",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Reach Heaven+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Lesson Learned",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Lesson Learned+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Like Water",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Like Water+",
+    "type": "Power",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Meditate",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Meditate+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Ragnarok",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Watcher"
+  },
+  {
+    "name": "Ragnarok+",
+    "type": "Attack",
+    "cost": 3,
+    "character": "Watcher"
+  },
+  {
+    "name": "Vault",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Watcher"
+  },
+  {
+    "name": "Vault+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Watcher"
+  },
+  {
+    "name": "Waver",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Waver+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Watcher"
+  },
+  {
+    "name": "Safety",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Colorless"
+  },
+  {
+    "name": "Safety+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Bandage Up",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Bandage Up+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Blind",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Blind+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Dark Shackles",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Dark Shackles+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Deep Breath",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Deep Breath+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Discovery",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Colorless"
+  },
+  {
+    "name": "Discovery+",
+    "type": "Skill",
+    "cost": 1,
+    "character": "Colorless"
+  },
+  {
+    "name": "Dramatic Entrance",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Dramatic Entrance+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Enlightenment",
+    "type": "Power",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Enlightenment+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Finesse",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Finesse+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Flash of Steel",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Flash of Steel+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Forethought",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Forethought+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Hand of Greed",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Hand of Greed+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Madness",
+    "type": "Power",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Madness+",
+    "type": "Power",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Master of Strategy",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Master of Strategy+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Mayhem",
+    "type": "Power",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Mayhem+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Mind Blast",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Mind Blast+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Panacea",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Panacea+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Purity",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Purity+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Swift Strike",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Swift Strike+",
+    "type": "Attack",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Trip",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Trip+",
+    "type": "Skill",
+    "cost": 0,
+    "character": "Colorless"
+  },
+  {
+    "name": "Chrysalis",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Chrysalis+",
+    "type": "Skill",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Metamorphosis",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Metamorphosis+",
+    "type": "Attack",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Transmutation",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Colorless"
+  },
+  {
+    "name": "Transmutation+",
+    "type": "Skill",
+    "cost": "X",
+    "character": "Colorless"
+  },
+  {
+    "name": "Apothosis",
+    "type": "Power",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Apothosis+",
+    "type": "Power",
+    "cost": 2,
+    "character": "Colorless"
+  },
+  {
+    "name": "Burn",
+    "type": "Status",
+    "cost": -2,
+    "character": "Status"
+  },
+  {
+    "name": "Dazed",
+    "type": "Status",
+    "cost": -2,
+    "character": "Status"
+  },
+  {
+    "name": "Ethereal",
+    "type": "Status",
+    "cost": -2,
+    "character": "Status"
+  },
+  {
+    "name": "Slimed",
+    "type": "Status",
+    "cost": -2,
+    "character": "Status"
+  },
+  {
+    "name": "Wound",
+    "type": "Status",
+    "cost": -2,
+    "character": "Status"
+  },
+  {
+    "name": "Curse",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Decay",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Doubt",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Injury",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Normality",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Parasite",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Pain",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Regret",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Shame",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Sickness",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Wrath",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  },
+  {
+    "name": "Necronomicurse",
+    "type": "Curse",
+    "cost": -2,
+    "character": "Curse"
+  }
+]
