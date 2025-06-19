@@ -2,18 +2,16 @@ import { useState, useEffect } from 'react'
 import './Deck.css'
 
 function makeCards(text) {
-    const regex = /([+]?)\sx(\d+.*)$/;
+    const regex = /\sx(\d+.*)$/;
     let cards = [];
     let lines = text.split('\n');
-    for (let line in lines) {
+    for (let line of lines) {
         const parts = line.split(regex);
         if (parts.length == 3) {
             let cardName = parts[0];
-            let isUpgraded = cardName.endsWith("+");
-            let number = parts[2];
+            let number = parts[1];
             cards.push({
                 cardName,
-                isUpgraded,
                 number,
             });
         } else {
@@ -39,7 +37,7 @@ function Deck({ player }) {
         const signal = abortController.signal;
 
         // Perform the fetch request
-        fetch(`https://slay-the-relics.baalorlord.tv/deck/${player}`, { signal })
+        fetch(`http://proxy.ponderer.org/deck/${player}`, { signal })
         .then((response) => {
             // Check if the response was successful (status code 2xx)
             if (!response.ok) {
@@ -84,7 +82,7 @@ function Deck({ player }) {
             {player}
             {cards.map(card => {
                 return (
-                    <div>{card.cardName} {card.isUpgraded} {card.number}</div>
+                    <div key={card.cardName}>{card.cardName} {card.isUpgraded} {card.number}</div>
                 )
             })}
         </div>
