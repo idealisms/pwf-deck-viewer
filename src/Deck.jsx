@@ -37,7 +37,7 @@ function Deck({ player }) {
         const signal = abortController.signal;
 
         // Perform the fetch request
-        fetch(`http://proxy.ponderer.org/deck/${player}`, { signal })
+        fetch(`https://proxy.ponderer.org/deck/${player}`, { signal })
         .then((response) => {
             // Check if the response was successful (status code 2xx)
             if (!response.ok) {
