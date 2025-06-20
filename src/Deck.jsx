@@ -33,8 +33,8 @@ function makeCards(text) {
         // type
         if (a_data[0] != b_data[0]) {
             const TYPES = ['Attack', 'Skill', 'Power', 'Curse'];
-            return TYPES.findIndex(x => x == b_data[0]) -
-                TYPES.findIndex(x => x == a_data[0]);
+            return TYPES.findIndex(x => x == a_data[0]) -
+                TYPES.findIndex(x => x == b_data[0]);
         }
         // cost
         if (a_data[1] != b_data[1]) {
@@ -43,7 +43,7 @@ function makeCards(text) {
             } else if (b_data[1] == 'X') {
                 return 1;
             }
-            return b_data[1] - a_data[1];
+            return a_data[1] - b_data[1];
         }
         // name
         if (a.cardName < b.cardName) {
