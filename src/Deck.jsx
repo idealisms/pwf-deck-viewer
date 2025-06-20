@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { CARDS } from './assets/cards.js'
 import './Deck.css'
 
 function makeCards(text) {
@@ -18,6 +19,41 @@ function makeCards(text) {
             console.log('Unable to parse card: ', line);
         }
     }
+    cards.sort((a, b) => {
+        let a_data = CARDS[a.cardName];
+        let b_data = CARDS[b.cardName];
+        if (!a_data) {
+            console.log(a.cardName);
+            return -1;
+        }
+        if (!b_data) {
+            console.log(b.cardName);
+            return 1
+        }
+        // type
+        if (a_data[0] != b_data[0]) {
+            const TYPES = ['Attack', 'Skill', 'Power', 'Curse'];
+            return TYPES.findIndex(x => x == b_data[0]) -
+                TYPES.findIndex(x => x == a_data[0]);
+        }
+        // cost
+        if (a_data[1] != b_data[1]) {
+            if (a_data[1] == 'X') {
+                return -1;
+            } else if (b_data[1] == 'X') {
+                return 1;
+            }
+            return b_data[1] - a_data[1];
+        }
+        // name
+        if (a.cardName < b.cardName) {
+            return -1;
+        } else if (b.cardName < a.cardName) {
+            return 1;
+        }
+        return 0;
+    })
+
     return cards
 }
 
@@ -78,11 +114,11 @@ function Deck({ player }) {
     }, []); // Empty dependency array means this effect runs only once on mount
 
     return (
-        <div>
-            {player}
+        <div className="deck">
+            <strong>{player}</strong>
             {cards.map(card => {
                 return (
-                    <div key={card.cardName}>{card.cardName} {card.isUpgraded} {card.number}</div>
+                    <div key={card.cardName}>{card.cardName} x{card.number}</div>
                 )
             })}
         </div>
