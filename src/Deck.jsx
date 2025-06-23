@@ -65,18 +65,9 @@ function Deck({ player }) {
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // useEffect hook to perform data fetching when the component mounts
-    useEffect(() => {
-        // Set loading to true before starting the fetch
-        setIsLoading(true);
-        setError(null); // Clear any previous errors
-
-        // Create an AbortController to cancel the fetch if the component unmounts
-        const abortController = new AbortController();
-        const signal = abortController.signal;
-
+    const fetchData = () => {
         // Perform the fetch request
-        fetch(`https://proxy.ponderer.org/deck/${player}`, { signal })
+        fetch(`https://proxy.ponderer.org/deck/${player}`)
         .then((response) => {
             // Check if the response was successful (status code 2xx)
             if (!response.ok) {
@@ -92,27 +83,33 @@ function Deck({ player }) {
         .catch((err) => {
             // Only set error if it's not an abort error (component unmounted)
             if (err.name === 'AbortError') {
-            console.log('Fetch aborted:', err.message);
+                console.log('Fetch aborted:', err.message);
             } else {
-            // Set the error state if fetching fails
-            console.error("Error fetching players:", err);
-            setError(err.message);
+                // Set the error state if fetching fails
+                console.error("Error fetching players:", err);
+                setError(err.message);
             }
         })
         .finally(() => {
             // Set loading to false once the fetch is complete (success or error)
             setIsLoading(false);
-
         })
+    };
 
-        // Cleanup function: runs when the component unmounts or before re-running the effect
+    // useEffect hook to perform data fetching when the component mounts
+    useEffect(() => {
+        // Set loading to true before starting the fetch
+        setIsLoading(true);
+        setError(null); // Clear any previous errors
+        fetchData();
+        let intervalId = setInterval(() => {
+            fetchData();
+        }, 20000);
+
         return () => {
-        // Abort the ongoing fetch request to prevent memory leaks
-        // and "Can't perform a React state update on an unmounted component" warning
-        // if the component unmounts before the fetch completes.
-        // This is particularly useful for long-running requests or if the component
-        // might unmount quickly (e.g., in a navigation flow).
-        // abortController.abort(); // Uncomment this line if you want to implement aborting
+            if (intervalId) {
+                clearInterval(intervalId);
+            }
         };
     }, []); // Empty dependency array means this effect runs only once on mount
 
