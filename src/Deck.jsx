@@ -7,6 +7,9 @@ function makeCards(text) {
     let cards = [];
     let lines = text.split('\n');
     for (let line of lines) {
+        if (!line.length) {
+            continue;
+        }
         const parts = line.split(regex);
         if (parts.length == 3) {
             let cardName = parts[0];
