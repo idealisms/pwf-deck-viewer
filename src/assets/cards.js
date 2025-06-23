@@ -23,7 +23,7 @@ export const CARDS = {
   "Apothosis+": ["Power", 2],
   "Armaments": ["Skill", 1],
   "Armaments+": ["Skill", 1],
-  "Ascender's Bane": ["Curse", -2]
+  "Ascender's Bane": ["Curse", -2],
   "Auto-Shields": ["Skill", 1],
   "Auto-Shields+": ["Skill", 1],
   "Awakened One": ["Power", 3],
@@ -115,6 +115,7 @@ export const CARDS = {
   "Cleave+": ["Attack", 1],
   "Clothesline": ["Attack", 2],
   "Clothesline+": ["Attack", 2],
+  "Clumsy": ["Curse", -2],
   "Cold Snap": ["Attack", 1],
   "Cold Snap+": ["Attack", 1],
   "Collect": ["Skill", "X"],
@@ -353,6 +354,8 @@ export const CARDS = {
   "Master of Strategy+": ["Skill", 0],
   "Master Reality": ["Power", 1],
   "Master Reality+": ["Power", 1],
+  "Masterful Stab": ["Attack", 0],
+  "Masterful Stab+": ["Attack", 0],
   "Mayhem": ["Power", 2],
   "Mayhem+": ["Power", 2],
   "Meditate": ["Skill", 1],
@@ -444,6 +447,8 @@ export const CARDS = {
   "Rupert's Hand+": ["Skill", 0],
   "Rushdown": ["Power", 2],
   "Rushdown+": ["Power", 1],
+  "Sadistic Nature": ["Power", 0],
+  "Sadistic Nature+": ["Power", 0],
   "Safety": ["Skill", 1],
   "Safety+": ["Skill", 0],
   "Sands of Time": ["Attack", 4],
@@ -560,5 +565,5 @@ export const CARDS = {
   "Wraith Form+": ["Power", 3],
   "Wrath": ["Curse", -2],
   "Zap": ["Skill", 1],
-  "Zap+": ["Skill", 0],
+  "Zap+": ["Skill", 0]
 };
