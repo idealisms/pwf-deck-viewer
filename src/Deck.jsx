@@ -67,7 +67,7 @@ function Deck({ player }) {
 
     const fetchData = () => {
         // Perform the fetch request
-        fetch(`https://proxy.ponderer.org/deck/${player}`)
+        fetch(`https://slay-the-relics.baalorlord.tv/deck/${player}`)
         .then((response) => {
             // Check if the response was successful (status code 2xx)
             if (!response.ok) {
